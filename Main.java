@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Student.studName();
@@ -6,8 +8,8 @@ public class Main {
         System.out.println("test");
     }
 }
-
-class Tutor{
+/*
+public class Tutor{
     public String name;
     public String academicInfo;
     public String specialization;
@@ -23,7 +25,4 @@ class Tutor{
         this.reservations=new List<String>();
     }
 }
-
-class Tutors{
-
-}
+*/
