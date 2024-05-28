@@ -11,6 +11,7 @@ public class Tutors{
             ListOfTutors[i] = TutorName;
         }
     }
+
     public static void remove(){
         System.out.println("Which Tutor do you want to remove?");
         Scanner scanner=new Scanner(System.in);
@@ -19,6 +20,7 @@ public class Tutors{
         ListOfTutors[Tutorremove-1]="";
 
     }
+
     public static void print(){
         int x=1;
         for(int i=0;i<ListOfTutors.length;i++){
