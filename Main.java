@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Student.studName();
+        Student.academicInfo();
         Student.phoneNum();
 
         //Tutors test

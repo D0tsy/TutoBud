@@ -8,7 +8,7 @@ public class Student {
     public static void studGender(){
         System.out.println("Male");
     }
-    public static void acadmicInfo(){
+    public static void academicInfo(){
         System.out.println("UTP");
     }
     public static void address(){
