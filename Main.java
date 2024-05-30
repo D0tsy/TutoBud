@@ -13,9 +13,6 @@ public class Main {
         students.printstudent();
         students.findstudent();
 
-
-
-
         //Tutors test
         int x=0;
         do{
