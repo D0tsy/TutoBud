@@ -6,6 +6,13 @@ public class Main {
         Student.academicInfo();
         Student.phoneNum();
 
+        //Students - Wan Adib
+        Students students = new Students();
+        students.addstudent();
+        students.removestudent();
+        students.printstudent();
+        students.findstudent();
+
         //Tutors test
         int x=0;
         do{
