@@ -6,7 +6,7 @@ public class Main {
         Student.academicInfo();
         Student.phoneNum();
 
-        //Students dummy - Wan Adib
+        //Students - Wan Adib
         Students students = new Students();
         students.addstudent();
         students.removestudent();
