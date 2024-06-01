@@ -10,21 +10,21 @@ public class Student {
     private String phoneNum = "+601234";
 
     public void name(){
-        System.out.println(studName);
+        System.out.println("Name: " + studName);
     }
     public void age(){
-        System.out.println(studAge);
+        System.out.println("Age: " + studAge);
     }
     public void gender(){
-        System.out.println(studGender);
+        System.out.println("Gender: " + studGender);
     }
     public void academic(){
-        System.out.println(academicInfo);
+        System.out.println("Academic info: " + academicInfo);
     }
     public void address(){
-        System.out.println(address);
+        System.out.println("Address: " + address);
     }
     public void contact(){
-        System.out.println(phoneNum);
+        System.out.println("Contact number: " + phoneNum);
     }
 }

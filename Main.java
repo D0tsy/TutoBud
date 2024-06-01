@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Student.studName();
-        Student.phoneNum();
-        
-
         //Student - Muhammad Asyraf Arsyad
         Student sInfo = new Student();
         sInfo.name();
