@@ -1,20 +1,30 @@
+//Student class
+//Muhammad Asyraf Arsyad 2400132
+
 public class Student {
-    public static void studName(){
-        System.out.println("Wagyu");
+    private String studName = "Wagyu";
+    private int studAge = 21;
+    private char studGender = 'M';
+    private String academicInfo = "COE";
+    private String address = "UTP";
+    private String phoneNum = "+601234";
+
+    public void name(){
+        System.out.println(studName);
     }
-    public static void studAge(){
-        System.out.println("18");
+    public void age(){
+        System.out.println(studAge);
     }
-    public static void studGender(){
-        System.out.println("Male");
+    public void gender(){
+        System.out.println(studGender);
     }
-    public static void acadmicInfo(){
-        System.out.println("UTP");
+    public void academic(){
+        System.out.println(academicInfo);
     }
-    public static void address(){
-        System.out.println("Stadium");
+    public void address(){
+        System.out.println(address);
     }
-    public static void phoneNum(){
-        System.out.println("12345");
+    public void contact(){
+        System.out.println(phoneNum);
     }
 }
