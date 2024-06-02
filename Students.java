@@ -1,4 +1,5 @@
-//Students - Wan Muhammad Adib Shahmi  24000495 (dummy class)
+//Students class
+// Wan Muhammad Adib Shahmi  24000495 (dummy class)
 import java.util.ArrayList;
 
 public class Students {
