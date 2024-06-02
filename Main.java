@@ -12,7 +12,7 @@ public class Main {
         sInfo.address();
         sInfo.contact();
 
-        //Students - Wan Adib
+        //Students - Wan Muhammad Adib Shahmi
         Students students = new Students();
         students.addstudent();
         students.removestudent();
