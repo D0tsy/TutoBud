@@ -18,7 +18,6 @@ public class Tutors{
         String StrTutorRemove = scanner.nextLine();
         int Tutorremove = Integer.parseInt(StrTutorRemove);
         ListOfTutors[Tutorremove-1]="";
-
     }
 
     public static void print(){
