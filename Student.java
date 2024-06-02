@@ -1,5 +1,5 @@
 //Student class
-//Muhammad Asyraf Arsyad 2400132
+//Muhammad Asyraf Arsyad bin Mohd Nazal 2400132
 
 public class Student {
     private String studName = "Wagyu";
