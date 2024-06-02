@@ -6,7 +6,7 @@ public class Main {
         Student.academicInfo();
         Student.phoneNum();
 
-        //Students - Wan Adib
+        //Students - Wan Muhammad Adib Shahmi
         Students students = new Students();
         students.addstudent();
         students.removestudent();
