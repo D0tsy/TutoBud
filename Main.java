@@ -19,7 +19,19 @@ public class Main {
         students.printstudent();
         students.findstudent();
 
+        //Tutor = Riz Haikal Bin Jasri]
+        Tutor tInfo = new Tutor();
+        tInfo.name();
+        tInfo.rate();
+        tInfo.academics();
+        tInfo.specialization();
+        tInfo.reservations();
 
+        //Tutors = Riz Haikal Bin Jasri
+        Tutors tutors = new Tutors();
+        tutors.add();
+        tutors.remove();
+        tutors.print();
 
     }
 }
