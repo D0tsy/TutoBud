@@ -1,33 +1,27 @@
 //Tutors class
 //Riz Haikal Bin Jasri 24000155
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Tutors{
-    private static String[] ListOfTutors = new String[10];
+    private ArrayList<String> ListOfTutors = new ArrayList<String>();;
 
-    public static void add(){
-        System.out.println("Add Tutors: ");
-        Scanner scanner=new Scanner(System.in);
-        for(int i=0;i<ListOfTutors.length;i++){
-            String TutorName = scanner.nextLine();
-            ListOfTutors[i] = TutorName;
-        }
+
+    public void add(String nameAdd){
+        ListOfTutors.add(nameAdd);
     }
 
-    public static void remove(){
-        System.out.println("Which Tutor do you want to remove?");
-        Scanner scanner=new Scanner(System.in);
-        String StrTutorRemove = scanner.nextLine();
-        int Tutorremove = Integer.parseInt(StrTutorRemove);
-        ListOfTutors[Tutorremove-1]="";
+    //remove tutor by name
+    public void remove(String nameRem){
+        ListOfTutors.remove(nameRem);
     }
 
-    public static void print(){
-        int x=1;
-        for(int i=0;i<ListOfTutors.length;i++){
-            System.out.println( x + ") " +ListOfTutors[i]);
-            x++;
-        }
+    //remove tutor by number
+    public void remove(int numRem){
+        ListOfTutors.remove(numRem);
+    }
+
+    public void print(){
+        System.out.println(ListOfTutors);
     }
 }
