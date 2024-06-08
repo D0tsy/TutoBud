@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        //Student - Muhammad Asyraf Arsyad
+        Student student = new Student();
+        student.setName("test");
+        System.out.println(student.getName());
+
         //Students - Wan Muhammad Adib Shahmi
         Students students = new Students();
         students.addstudent();
