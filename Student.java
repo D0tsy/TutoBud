@@ -2,29 +2,59 @@
 //Muhammad Asyraf Arsyad bin Mohd Nazal 2400132
 
 public class Student {
-    private String studName = "Wagyu";
-    private int studAge = 21;
-    private char studGender = 'M';
-    private String academicInfo = "COE";
-    private String address = "UTP";
-    private String phoneNum = "+601234";
+    private String Name;
+    private int Age;
+    private char Gender;
+    private String academicInfo;
+    private String Address;
+    private String phoneNum;
 
-    public void name(){
-        System.out.println("Name: " + studName);
+    //setter & getter
+    public void setName(String Name) {
+        this.Name = Name;
     }
-    public void age(){
-        System.out.println("Age: " + studAge);
+
+    public String getName() {
+        return Name;
     }
-    public void gender(){
-        System.out.println("Gender: " + studGender);
+
+    public void setAge(int Age) {
+        this.Age = Age;
     }
-    public void academic(){
-        System.out.println("Academic info: " + academicInfo);
+
+    public int getAge() {
+        return Age;
     }
-    public void address(){
-        System.out.println("Address: " + address);
+
+    public void setGender(char gender) {
+        this.Gender = gender;
     }
-    public void contact(){
-        System.out.println("Contact number: " + phoneNum);
+
+    public char getGender() {
+        return Gender;
+    }
+
+    public void set_academicInfo(String academicInfo) {
+        this.academicInfo = academicInfo;
+    }
+
+    public String get_academicInfo() {
+        return academicInfo;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void set_phoneNum(String phoneNum) {
+        this.phoneNum = phoneNum;
+    }
+
+    public String get_phoneNum() {
+        return phoneNum;
     }
 }
