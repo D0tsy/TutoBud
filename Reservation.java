@@ -25,4 +25,7 @@ public class Reservation{
     public Tutor getTutor(){
         return tutor;
     }
+    public String toString() {
+        return "\n{"+student+", "+tutor+", Date: " + date + ", Time: "+time+'}';
+    }
 }
