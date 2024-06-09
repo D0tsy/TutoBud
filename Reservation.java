@@ -29,5 +29,7 @@ public class Reservation{
 
         return tutor;
     }
-
+    public String toString() {
+        return "\n{"+student+", "+tutor+", Date: " + date + ", Time: "+time+'}';
+    }
 }
