@@ -1,30 +1,30 @@
-//Mohamad Nazimnan Bin Mohamad Budiman 
-//24000127
-
-public class Reservation
-{
-
-    public static void main(String[] args)
-    {
-        tutotime ();
-        tutodate ();
-        tutorname ();
-
+// ika 22005669
+public class Reservation{
+    private String date;
+    private String time;
+    private Student student;
+    private Tutor tutor;
+    public Reservation(Student student, Tutor tutor, String date, String time) {
+        this.date = date;
+        this.time = time;
+        this.student = student;
+        this.tutor = tutor;
     }
-    public static int tutotime()
-    {
 
-        return 0;
+    public String getDate() {
+        return date;
     }
-    public static int tutodate()
-    {
 
-        return 0;
+    public String getTime() {
+        return time;
     }
-    public static int tutorname()
-    {
-
-
-        return 0;
+    public Student getStudent(){
+        return student;
+    }
+    public Tutor getTutor(){
+        return tutor;
+    }
+    public String toString() {
+        return "\n{"+student+", "+tutor+", Date: " + date + ", Time: "+time+'}';
     }
 }

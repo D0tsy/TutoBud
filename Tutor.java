@@ -1,26 +1,39 @@
-//Tutor class
-//Riz Haikal Bin Jasri 24000155
+//ika 22005669
 
-public class Tutor {
-    private String name = "Jeremy";
-    private double rate = 15.0;
-    private String academics = "Masters Degree in Computer Science";
-    private String Specialization = "Computer Science";
-    private String reservations = "1234567";
+public class Tutor{
+    private String name;
+    private String phone;
+    private String id;
+    private String subject;
 
-    public void name(){
-        System.out.println(name);
+    public Tutor(String name, String phone, String id, String subject){
+        this.name = name;
+        this.phone = phone;
+        this.id = id;
+        this.subject = subject;
     }
-    public void rate(){
-        System.out.println(rate);
+    public String getTutorName() {
+        return name;
     }
-    public void academics(){
-        System.out.println(academics);
+
+    public String getTutorId(){
+        return id;
     }
-    public void specialization(){
-        System.out.println(Specialization);
+    public String getTutorPhone(){
+        return phone;
     }
-    public void reservations(){
-        System.out.println(reservations);
+    public String getTutorSubject(){
+        return subject;
     }
+    public static void printTutors(Tutor[] tutors){
+        int index = 1;
+        for(Tutor tutor : tutors){
+            System.out.println(index+"."+tutor);
+            index++;
+        }
+    }
+    public String toString(){
+        return "Tutor Name: "+name+", Tutor Phone: "+phone+", ID: "+id+", Subject: "+subject;
+    }
+
 }
