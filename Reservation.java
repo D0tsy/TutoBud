@@ -6,6 +6,7 @@ public class Reservation{
     private Name name;
     private Student student;
     private Tutor tutor;
+    
     public Reservation(Name name, Student student, Tutor tutor, String date, String time) {
         this.date = date;
         this.time = time;
