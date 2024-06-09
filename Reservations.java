@@ -20,14 +20,17 @@ public class Reservations {
 
             switch (option) {
                 case 1:
-                    System.out.println("Enter student name:");
-                    String studentName = scanner.nextLine();
+                    System.out.println("Enter student first name:");
+                    String studentFirstName = scanner.nextLine();
+                    System.out.println("Enter student last name:");
+                    String studentLastName = scanner.nextLine();
                     System.out.println("Enter student email:");
                     String studentEmail = scanner.nextLine();
                     System.out.println("Enter student phone number:");
                     String studentPhoneNumber = scanner.nextLine();
 
-                    Student student = new Student(studentName, studentEmail,studentPhoneNumber);
+                    Name name = new Name(studentFirstName, studentLastName);
+                    Student student = new Student(studentEmail,studentPhoneNumber);
 
                     Tutor.printTutors(tutors);
 
@@ -43,7 +46,7 @@ public class Reservations {
                     System.out.println("Enter time (hh:mm AM/PM):");
                     String time = scanner.nextLine();
 
-                    ReservationList.addReservation(new Reservation(student, tutors[index], date, time));
+                    ReservationList.addReservation(new Reservation(name, student, tutors[index], date, time));
                     break;
                 case 2:
                     System.out.println("Enter student email:");
