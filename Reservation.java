@@ -13,19 +13,21 @@ public class Reservation{
     }
 
     public String getDate() {
+
         return date;
     }
 
     public String getTime() {
+
         return time;
     }
     public Student getStudent(){
+
         return student;
     }
     public Tutor getTutor(){
+
         return tutor;
     }
-    public String toString() {
-        return "\n{"+student+", "+tutor+", Date: " + date + ", Time: "+time+'}';
-    }
+
 }
