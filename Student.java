@@ -10,7 +10,7 @@ public class Student{
         this.email = email;
         this.phone = phone;
     }
-    
+
     public String getStudentName() {
         return name;
     }

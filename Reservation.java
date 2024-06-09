@@ -1,4 +1,5 @@
 // ika 22005669
+
 public class Reservation{
     private String date;
     private String time;
