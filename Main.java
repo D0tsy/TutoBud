@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
-
         //Students - Wan Muhammad Adib Shahmi
         Students students = new Students();
         students.addstudent();

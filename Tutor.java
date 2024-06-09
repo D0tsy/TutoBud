@@ -1,4 +1,4 @@
-//ika 22005669
+//Riz Haikal Bin Jasri - 24000155
 
 public class Tutor{
     private String name;
