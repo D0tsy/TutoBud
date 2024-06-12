@@ -4,21 +4,23 @@
 import java.util.*;
 
 public class Tutors{
-    private ArrayList<String> ListOfTutors = new ArrayList<String>();;
+    private ArrayList<String> ListOfTutors = new ArrayList<String>();
 
 
     public void add(String nameAdd){
         ListOfTutors.add(nameAdd);
+        System.out.println("Tutor added");
     }
 
     //remove tutor by name
     public void remove(String nameRem){
-        ListOfTutors.remove(nameRem);
-    }
-
-    //remove tutor by number
-    public void remove(int numRem){
-        ListOfTutors.remove(numRem);
+        if(ListOfTutors.contains(nameRem)){
+            ListOfTutors.remove(nameRem);
+            System.out.println("Tutor removed");
+        }
+        else{
+            System.out.println("Tutor not found");
+        }
     }
 
     public void print(){

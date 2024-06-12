@@ -1,21 +1,21 @@
+// ika 22005669
 //Riz Haikal Bin Jasri - 24000155
 
 public class Tutor{
-    private String name;
     private String phone;
+    private String email;
     private String id;
     private String subject;
 
-    public Tutor(String name, String phone, String id, String subject){
-        this.name = name;
+    public Tutor(String phone, String email, String id, String subject){
         this.phone = phone;
+        this.email = email;
         this.id = id;
         this.subject = subject;
     }
-    public String getTutorName() {
-        return name;
+    public String getTutorEmail(){
+        return email;
     }
-
     public String getTutorId(){
         return id;
     }
@@ -33,7 +33,7 @@ public class Tutor{
         }
     }
     public String toString(){
-        return "Tutor Name: "+name+", Tutor Phone: "+phone+", ID: "+id+", Subject: "+subject;
+        return "Tutor email: "+email+", Tutor Phone: "+phone+", ID: "+id+", Subject: "+subject;
     }
 
 }

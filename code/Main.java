@@ -15,8 +15,6 @@ public class Main {
         tutors.print();
         tutors.remove("Test1");
         tutors.print();
-        tutors.remove(0);
-        tutors.print();
 
     }
 }
