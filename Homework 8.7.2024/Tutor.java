@@ -1,16 +1,16 @@
 package com.mycompany.mavenproject1;
 
+/**
+ *
+ * @Riz Haikal Bin Jasri 24000155
+ */
+
 public class Tutor extends javax.swing.JFrame {
     
     public Tutor() {
         initComponents();
     }
 
-/**
- *
- * @Riz Haikal Bin Jasri 24000155
- */
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
